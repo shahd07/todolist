@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1315</width>
+    <height>648</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>-20</y>
+      <width>261</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 22pt &quot;Segoe Script&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Welcome Back !</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Sort_by_name">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>500</y>
+      <width>141</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(249, 178, 255);</string>
+    </property>
+    <property name="text">
+     <string>Sort Tasks By Name</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sort_by_dead_line">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>500</y>
+      <width>141</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top-color: rgb(39, 255, 39);
+alternate-background-color: rgb(210, 255, 228);
+color: rgb(255, 225, 117);</string>
+    </property>
+    <property name="text">
+     <string>Sort Tasks By deadline</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Sort_by_time_created">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>500</y>
+      <width>151</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 111, 154);</string>
+    </property>
+    <property name="text">
+     <string>Sort Tasks By Time Created</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>30</y>
+      <width>261</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 22pt &quot;Script MT Bold&quot;;
+
+color: rgb(255, 0, 4);
+</string>
+    </property>
+    <property name="text">
+     <string> To - Do - List</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>90</y>
+      <width>256</width>
+      <height>451</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>310</y>
+      <width>201</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 17pt &quot;Segoe UI&quot;;
+color: rgb(57, 136, 255);</string>
+    </property>
+    <property name="text">
+     <string>Adding Options</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Add_Task">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>520</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 198, 165);
+border-color: rgb(152, 255, 181);</string>
+    </property>
+    <property name="text">
+     <string>Add Task</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Add_Task_Schedueled">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>520</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(135, 255, 133);</string>
+    </property>
+    <property name="text">
+     <string>Add Task at Sqedueled Time</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>0</y>
+      <width>311</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 18pt &quot;Segoe UI&quot;;
+color: rgb(52, 255, 86);</string>
+    </property>
+    <property name="text">
+     <string>Tasks Are Listed here</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="User_Input">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>420</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 255, 162);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>330</y>
+      <width>201</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 17pt &quot;Segoe UI&quot;;
+color: rgb(176, 80, 255);</string>
+    </property>
+    <property name="text">
+     <string>Sorting Options</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>201</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 17pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 105);</string>
+    </property>
+    <property name="text">
+     <string>Serching Options</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="User_Input_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(180, 243, 255);
+border-color: rgb(243, 255, 17);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Add_Task_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>160</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Search </string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1315</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuClock">
+    <property name="title">
+     <string>Clock</string>
+    </property>
+   </widget>
+   <addaction name="menuClock"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
